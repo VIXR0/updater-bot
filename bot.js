@@ -39,7 +39,7 @@ bot.on("message", async message => {
 		.setTimestamp()
 		.setFooter(`Issued by ${message.author.username}`);
 
-		message.guild.channels.find('name', 'news').send(embed);
+		message.guild.channels.find('name', 'announcements').send(embed);
 		message.channel.send("Update posted <:success:463539522475655172>");
 	}
 });
