@@ -1,0 +1,11 @@
+{
+  "name": "ub",
+  "version": "1.0.0",
+  "description": "Bot to send updates to a specified channel",
+  "main": "bot.js",
+  "author": "Vixro",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
