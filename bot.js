@@ -35,7 +35,7 @@ bot.on("message", async message => {
 		.setTimestamp(timestamp = new Date())
 		.setDescription(args.slice(1).join(" "))
 		.setTitle(args[0])
-		.setColor("#00BDFF")
+		.setColor("#7742f4")
 		.setTimestamp()
 		.setFooter(`Issued by ${message.author.username}`);
 
