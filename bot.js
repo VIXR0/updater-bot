@@ -26,7 +26,7 @@ bot.on("message", async message => {
 	}
 
 	if(command === `${prefix}update`) {
-		if(!message.member.hasPermission("KICK_MEMBERS")) return message.channel.send ("You do not have the right permissions!");
+		if(!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send ("You do not have the right permissions!");
 
 		var commandud = message.content.split(" ")[0].slice(prefix.length);
 		var params = message.content.split(" ").slice(1);
